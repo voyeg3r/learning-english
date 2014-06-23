@@ -1,17 +1,13 @@
 Arquivo: leia-me sobre o projeto learn-english
 Criado: Seg 24/Dez/2012 hs 18:22
-Last Change: 2012 Dez 25 19:12:46
+Last Change: Seg Jun 23, 2014  09:38
 autor: Sérgio Luiz Araújo Silva
-
-Instale o mercurial
-
-   sudo apt-get install -y mercurial
 
 -----------------------------------
 Para clonar este repositório faça:
 -----------------------------------
 
-	hg clone ssh://hg@bitbucket.org/sergio/learn-english ./learn-english
+	git clone git@github.com:voyeg3r/learning-english.git
 
 -------------------------------------
  como aprender inglês de forma fácil
@@ -32,8 +28,9 @@ outras pessoas que estão estudando inglês.
 
 	make clean; make && make show
 
-
 O make funciona devido ao arquivo makefile (veja o mesmo)
+
+Outro detalhe, você deve ter instalado o pacote 'build-essential' assim como o LaTeX
 
 
 
